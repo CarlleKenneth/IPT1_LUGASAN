@@ -1,0 +1,315 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+/**/
+body{
+    /* background: linear-gradient(90deg, rgba(25,24,46,1) 0%, rgba(13,13,34,1) 35%, rgba(15,18,19,1) 100%); */
+
+    background-image: url('/Images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* FOR NAVIGATION BAR */
+.navbar{
+    background: transparent;
+    backdrop-filter: blur(20px);
+    padding-left: 15px; padding-right: 15px;
+    height: 75px;
+
+}
+.navdiv{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 70px; 
+    font-weight: 600; 
+    color: white; 
+    margin-left: 60px;
+}
+li{
+    list-style: none; 
+    display: inline-block; 
+    font-family: 'Poppins', sans-serif;
+}
+li a{
+    color: whitesmoke; 
+    font-size: 20px; 
+    font-weight: bold; 
+    margin-right: 70px;
+
+}
+
+/*FOR NAME AND INFO*/
+.NameInfodiv{
+color: whitesmoke;
+margin-top: 80px;
+margin-left: 80px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.info{
+    font-size: 20px;
+    width: 650px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*IMAGE and TEXT*/
+.ImageCCS{
+    float: right;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.ResumePic{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: beige;
+}
+.department{
+    padding-left: 120px;
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*SKILLS PAGE*/
+.proglang{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+.design{
+    padding: 40px;
+}
+.SkillDep{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+/*CONTACT PAGE*/
+.wholecontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 5%;
+}
+/*FACEBOOK PAGE*/
+.container1{
+    font-size: 25px;
+    width: 500px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+.overlay1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+.facebook{
+    position: relative;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px;
+    transition: width 3s;
+}
+.facebook:hover .overlay1{
+    width: 100%;
+}
+.fbcolor{
+    color: black;
+}
+.fbfont{
+    padding: 80px;
+    white-space: nowrap;
+}
+.fblogo{
+    height: 100px;
+    vertical-align: middle;
+}
+/*GMAIL PAGE*/
+.container2{
+    font-size: 24px;
+    width: 500px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+.overlay2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+.gmail{
+    position: relative;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px;
+    transition: width 3s;
+}
+.gmail:hover .overlay2{
+    width: 100%;
+}
+.gmailcolor{
+    color: black;
+}
+.gmailfont{
+    padding: 80px 40px 40px 20px;
+    white-space: nowrap;
+}
+.gmaillogo{
+    height: 100px;
+    vertical-align: middle;
+}
+
+/*MESSENGER PAGE*/
+.container3{
+    font-size: 25px;
+    width: 500px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+.overlay3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+.messenger{
+    position: relative;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px;
+    transition: width 3s;
+}
+.messenger:hover .overlay3{
+    width: 100%; 
+}
+.msgcolor{
+    color: black;
+}
+.msgfont{
+    padding: 80px;
+    white-space: nowrap;
+}
+.msglogo{
+    height: 100px;
+    vertical-align: middle;
+}
+
+/*CONTACT PAGE*/
+.container4{
+    font-size: 25px;
+    width: 500px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+.overlay4{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+.contact{
+    position: relative;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px;
+    transition: width 3s;
+}
+.contact:hover .overlay4{
+    width: 100%; 
+    border-radius: 10px;
+}
+.contactcolor{
+    color: black
+    
+}
+.contactfont{
+    padding: 80px 60px 60px 40px;
+    white-space: nowrap;
+}
+.contactlogo{
+    height: 100px;
+    vertical-align: middle;
+}
+
+/*LANDING PAGE*/
+.mainContainer{
+  margin: auto;
+  margin-top: 18%;
+  width: 60%;
+  text-align: center;
+}
+.nextPage{
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-decoration: none;
+    width: 40%;
+    margin: auto;
+    padding-left: 15px;
+    margin-top: 5%;
+}
+h1{
+    color: whitesmoke;
+    font-size: 70px;
+}
+h3{
+    color: black;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
